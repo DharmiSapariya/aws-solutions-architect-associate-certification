@@ -1,84 +1,54 @@
 # AWS Certified Solutions Architect – Associate (SAA-C03) Notes
 
-Study notes, practice question analysis, architecture diagrams, and hands-on labs
-collected while preparing for the **AWS Certified Solutions Architect – Associate
-(SAA-C03)** exam.
+Study notes, practice breakdowns, per-service notes and a daily log, built while following the AWS Skill Builder **Exam Prep Plan** for SAA-C03.
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Exam](https://img.shields.io/badge/exam-SAA--C03-orange)
-![AWS](https://img.shields.io/badge/AWS-Solutions%20Architect-232F3E)
 
----
-
-## About
-
-This repository is my single source of truth for the SAA-C03 certification.
-It covers concepts, service comparisons, exam-style practice questions
-(including the AWS Skill Builder official practice set), and the labs I built
-along the way.
-
-## Exam Overview
-
+## Exam at a glance
 | Item | Detail |
 |------|--------|
-| Exam code | SAA-C03 |
-| Format | Multiple choice / multiple response |
-| Duration | 130 minutes |
 | Questions | 65 (50 scored + 15 unscored) |
-| Passing score | 720 / 1000 |
-
-### Domains
+| Time | 130 minutes |
+| Passing score | 720 / 1000 (scaled), compensatory scoring |
+| Format | Multiple choice and multiple response |
 
 | Domain | Weight |
 |--------|--------|
-| Design Secure Architectures | 30% |
-| Design Resilient Architectures | 26% |
-| Design High-Performing Architectures | 24% |
-| Design Cost-Optimized Architectures | 20% |
+| 1. Design Secure Architectures | 30% |
+| 2. Design Resilient Architectures | 26% |
+| 3. Design High-Performing Architectures | 24% |
+| 4. Design Cost-Optimized Architectures | 20% |
 
-## Repository Structure
+## Repository map
+| Path | What's in it |
+|------|--------------|
+| `01-notes/00-exam-prep-plan/` | Exam Prep Plan overview, Exam Prep Overview |
+| `01-notes/00-exam-guide/` | Exam guide summary and full checklist |
+| `01-notes/01-domain-1-secure-architectures/` | In-depth Domain 1 notes, cheat sheet, self-quiz, practice takeaways |
+| `01-notes/03-aws-services/` | One file per AWS service plus a service index |
+| `02-practice-questions/` | Practice set breakdowns, walkthroughs, flashcards, mistakes log |
+| `study-log.md` | Day-by-day log |
 
-| Folder | Contents |
-|--------|----------|
-| `01-notes/` | Service-wise and domain-wise notes |
-| `02-practice-questions/` | Question breakdowns, explanations, and a mistakes log |
-| `03-labs/` | Hands-on labs with steps and screenshots |
-| `04-architecture-diagrams/` | Reference architectures and diagrams |
-| `05-cheatsheets/` | Quick-revision sheets and service comparisons |
-| `resources.md` | Courses, docs, and useful links |
-
-## Progress Tracker
-
-- [ ] Compute (EC2, Lambda, containers)
-- [ ] Storage (S3, EBS, EFS, FSx)
-- [ ] Networking (VPC, Route 53, CloudFront)
-- [ ] Databases (RDS, Aurora, DynamoDB, ElastiCache)
-- [ ] Security & Identity (IAM, KMS, WAF, Cognito)
-- [ ] High Availability & Disaster Recovery
-- [ ] Cost Optimization
-- [ ] AWS Skill Builder official practice question set
-- [ ] Full-length practice exams
+## Progress tracker
+- [x] Exam Prep Plan Overview
+- [x] Exam Prep Overview
+- [ ] Official Practice Question Set (20 questions), in progress
+- [x] Domain 1 Review (Secure Architectures)
+- [x] Domain 1 Practice (assessment 5/5)
+- [ ] Domain 1 SimuLearn lab
+- [ ] Domain 2 Review / Practice / Lab (Resilient)
+- [ ] Domain 3 Review / Practice / Lab (High-Performing)
+- [ ] Domain 4 Review / Practice / Lab (Cost-Optimized)
+- [ ] AWS Escape Room
+- [ ] Official Practice Exam
 - [ ] Exam taken
 
-## How I Use This Repo
-
-1. Learn a service and write notes in `01-notes/`.
-2. Build a small lab in `03-labs/`.
-3. Solve practice questions and log wrong answers in `mistakes-log.md`.
-4. Revise from `05-cheatsheets/` before the exam.
-
-## Resources
-
-- [AWS Exam Guide (SAA-C03)](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
-- [AWS Skill Builder](https://skillbuilder.aws/)
-- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+## How I use this repo
+1. Watch the course, then write notes in `01-notes/`.
+2. Write one note per service in `03-aws-services/`.
+3. Do practice questions, log gaps in `mistakes-log.md`.
+4. Build the labs, then revise from the cheat sheets and flashcards.
 
 ## Disclaimer
-
-These are personal study notes for educational purposes. They are not official
-AWS material and do not contain actual exam questions. Always refer to the
-official AWS documentation for authoritative information.
-
-## License
-
-Released under the [MIT License](LICENSE).
+Personal study notes for educational purposes, not official AWS material. Practice questions are summarized in my own words; I don't republish AWS exam content. Check the official AWS documentation for authoritative and current details.
