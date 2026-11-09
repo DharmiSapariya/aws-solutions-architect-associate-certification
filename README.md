@@ -1,54 +1,73 @@
-# AWS Certified Solutions Architect – Associate (SAA-C03) Notes
+<div align="center">
 
-Study notes, practice breakdowns, per-service notes and a daily log, built while following the AWS Skill Builder **Exam Prep Plan** for SAA-C03.
+<img src="certification/aws-saa-badge.png" alt="AWS Certified Solutions Architect – Associate" width="180"/>
 
-![Status](https://img.shields.io/badge/status-in%20progress-yellow)
-![Exam](https://img.shields.io/badge/exam-SAA--C03-orange)
+# AWS Certified Solutions Architect – Associate (SAA-C03)
 
-## Exam at a glance
-| Item | Detail |
-|------|--------|
-| Questions | 65 (50 scored + 15 unscored) |
-| Time | 130 minutes |
-| Passing score | 720 / 1000 (scaled), compensatory scoring |
-| Format | Multiple choice and multiple response |
+**Certified: November 7, 2026 · Valid through: November 7, 2029 · Score: 840 / 1000 (pass mark 720)**
 
-| Domain | Weight |
-|--------|--------|
-| 1. Design Secure Architectures | 30% |
-| 2. Design Resilient Architectures | 26% |
-| 3. Design High-Performing Architectures | 24% |
-| 4. Design Cost-Optimized Architectures | 20% |
+[![AWS Certified](https://img.shields.io/badge/AWS-Certified%20Solutions%20Architect%20Associate-FF9900?logo=amazonaws&logoColor=white)](https://aws.amazon.com/verification)
+[![Exam](https://img.shields.io/badge/Exam-SAA--C03-232F3E)](#)
+[![Score](https://img.shields.io/badge/Score-840%2F1000-success)](#)
 
-## Repository map
-| Path | What's in it |
-|------|--------------|
-| `01-notes/00-exam-prep-plan/` | Exam Prep Plan overview, Exam Prep Overview |
-| `01-notes/00-exam-guide/` | Exam guide summary and full checklist |
-| `01-notes/01-domain-1-secure-architectures/` | In-depth Domain 1 notes, cheat sheet, self-quiz, practice takeaways |
-| `01-notes/03-aws-services/` | One file per AWS service plus a service index |
-| `02-practice-questions/` | Practice set breakdowns, walkthroughs, flashcards, mistakes log |
-| `study-log.md` | Day-by-day log |
+</div>
 
-## Progress tracker
-- [x] Exam Prep Plan Overview
-- [x] Exam Prep Overview
-- [ ] Official Practice Question Set (20 questions), in progress
-- [x] Domain 1 Review (Secure Architectures)
-- [x] Domain 1 Practice (assessment 5/5)
-- [ ] Domain 1 SimuLearn lab
-- [ ] Domain 2 Review / Practice / Lab (Resilient)
-- [ ] Domain 3 Review / Practice / Lab (High-Performing)
-- [ ] Domain 4 Review / Practice / Lab (Cost-Optimized)
-- [ ] AWS Escape Room
-- [ ] Official Practice Exam
-- [ ] Exam taken
+---
 
-## How I use this repo
-1. Watch the course, then write notes in `01-notes/`.
-2. Write one note per service in `03-aws-services/`.
-3. Do practice questions, log gaps in `mistakes-log.md`.
-4. Build the labs, then revise from the cheat sheets and flashcards.
+## About
+Complete, in-depth study notes I used to prepare for and pass the **AWS Certified Solutions Architect – Associate (SAA-C03)** exam, organized by the four official exam domains, plus cheat sheets, reference architectures and a study plan.
+
+## Certification
+| | |
+|---|---|
+| Holder | Dharmi Sandip Sapariya |
+| Certification | AWS Certified Solutions Architect – Associate |
+| Issued | November 7, 2026 |
+| Expires | November 7, 2029 |
+| Validation number | `15437807c11341cfa72627b8c1de1078` |
+| Verify | https://aws.amazon.com/verification |
+| Certificate | [PDF](certification/aws-saa-c03-certificate.pdf) |
+| Badge | [PNG](certification/aws-saa-badge.png) |
+
+All domains were rated **Meets Competencies**.
+
+## Exam domains
+| Domain | Weight | Notes |
+|---|---|---|
+| 1. Design Secure Architectures | 30% | [notes](notes/domain-1-secure-architectures.md) |
+| 2. Design Resilient Architectures | 26% | [notes](notes/domain-2-resilient-architectures.md) |
+| 3. Design High-Performing Architectures | 24% | [notes](notes/domain-3-high-performing-architectures.md) |
+| 4. Design Cost-Optimized Architectures | 20% | [notes](notes/domain-4-cost-optimized-architectures.md) |
+
+## Repository structure
+```
+.
+├── README.md
+├── certification/
+│   ├── README.md
+│   ├── aws-saa-c03-certificate.pdf
+│   └── aws-saa-badge.png
+└── notes/
+    ├── 00-exam-overview.md
+    ├── domain-1-secure-architectures.md
+    ├── domain-2-resilient-architectures.md
+    ├── domain-3-high-performing-architectures.md
+    ├── domain-4-cost-optimized-architectures.md
+    ├── service-comparison-cheatsheet.md
+    ├── well-architected-framework.md
+    ├── scenarios-and-patterns.md
+    └── study-plan-and-exam-tips.md
+```
+
+## Extras
+- [Exam overview & question-keyword guide](notes/00-exam-overview.md)
+- [Service comparison cheat sheet](notes/service-comparison-cheatsheet.md)
+- [Well-Architected Framework](notes/well-architected-framework.md)
+- [Reference architectures & anti-patterns](notes/scenarios-and-patterns.md)
+- [Study plan & exam-day tips](notes/study-plan-and-exam-tips.md)
 
 ## Disclaimer
-Personal study notes for educational purposes, not official AWS material. Practice questions are summarized in my own words; I don't republish AWS exam content. Check the official AWS documentation for authoritative and current details.
+These are my own study notes. They contain no exam questions or exam content, in line with the AWS Candidate Code of Conduct. AWS and related marks belong to Amazon Web Services, Inc.
+
+## Connect
+GitHub: [@DharmiSapariya](https://github.com/DharmiSapariya)
